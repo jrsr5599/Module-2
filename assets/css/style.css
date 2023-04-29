@@ -1,23 +1,23 @@
 .main-header {
     padding: 1;
     font-family: 'Times New Roman', Times, serif;
-    background-color: blue;
-    color: white;
+    background-color:black;
+    color: red;
     text-align: left;
     max-height: 100px;
 }
 
+.header nav {
 
-
-.portfolio {
-    width: 100%;
-    height: 100px;
-    text-align: center;
-    flex: wrap;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    color:aquamarine;
-
 }
+
+
+
 
 .details{
     position:relative;
@@ -63,6 +63,23 @@ ul li {
 .main-image{
     flex-wrap: wrap;
     float:right;
-    max-height: 1000px;
+    max-height: 150px;
 
+}  
+
+.book-images{
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+.details img{
+    max-width: 20%;
+    float: left;
+    padding: 2%;
 }  
